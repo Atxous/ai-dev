@@ -27,7 +27,7 @@ print(np.mean(x, axis = 0), np.std(x, axis = 0))
 print(x.min(axis = 0), x.max(axis = 0))
 '''
 
-dataset = pd.read_csv("C:\\Users\\jl255\\Downloads\\3312172.csv")
+dataset = pd.read_csv("255585")
 dataset = dataset.drop(labels = ["STATION", "NAME", "DATE"], axis = 1)
 dataset = dataset.to_numpy()
 
